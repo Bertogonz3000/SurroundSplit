@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "837320753655",
+    "firebase_url": "https://surroundquick.firebaseio.com",
+    "project_id": "surroundquick",
+    "storage_bucket": "surroundquick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:837320753655:android:3cfa9446ad19fad6",
+        "android_client_info": {
+          "package_name": "com.example.berto.stereosplitter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "837320753655-6009qug0017k2df8mnj9gd32laugtgaj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0TzUz6KRaq02buVPGg1PqfrkzefOZWRI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
