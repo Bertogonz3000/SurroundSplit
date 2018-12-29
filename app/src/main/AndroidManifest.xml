@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+
+        <service
+            android:name=".TimingService"
+            android:exported="false" />
+
+        <activity android:name=".SessionSelectionActivity"></activity>
+        <activity android:name=".PositionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

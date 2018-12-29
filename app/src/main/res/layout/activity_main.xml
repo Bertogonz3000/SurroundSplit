@@ -7,8 +7,15 @@
     tools:context=".MainActivity">
 
     <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Restart"
+        android:onClick="restart"/>
+
+    <Button
         android:id="@+id/rightButton"
-        android:layout_width="179dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_centerVertical="true"
@@ -17,12 +24,22 @@
 
     <Button
         android:id="@+id/leftButton"
-        android:layout_width="178dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
         android:onClick="playLeft"
         android:text="Left Audio" />
+
+    <Button
+        android:id="@+id/bothButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/rightButton"
+        android:layout_toRightOf="@id/leftButton"
+        android:text="Full Audio"
+        android:layout_centerVertical="true"
+        android:onClick="playBoth"/>
 
     <Button
         android:id="@+id/playButton"
